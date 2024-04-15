@@ -1,0 +1,23 @@
+# 2024 jmfariasdev (João Marcos Farias)
+# §§=> Starship Prompt <=§§ config file.
+
+# Command timeout
+command_timeout = 10000 # 10s
+
+# New line behavior
+add_newline = true
+
+# Prompt character
+[character]
+success_symbol = '[§>](bold green)'
+error_symbol = '[§>](bold red)'
+
+[username]
+format = '[<+]($style)[$user](#f7768e)[@](#bb9af7)[archlinux](#7dcfff)[+>]($style) in '
+style_user = '#e0af68'
+show_always = true
+
+[directory]
+truncation_length = 1
+truncate_to_repo = true
+truncation_symbol = '↩/'

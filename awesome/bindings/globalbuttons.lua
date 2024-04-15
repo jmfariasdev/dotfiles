@@ -1,0 +1,3 @@
+-- NOTE: No global mouse interaction functionality
+-- implemented yet, mostly because I don't a menu launcher.
+-- it's a good idea to keep this file in place, just in case.
